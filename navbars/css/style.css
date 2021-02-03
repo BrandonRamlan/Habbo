@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#blue, #red, #yellow, #green {
+  min-height: 100vh;
+  padding-top: 11vh;
+}
+
+img {
+  width: 50vh;
+  height: 50vh;
+  margin: 1em auto;
+}
+
+section {
+  border: 10px solid white;
+  font-size: 1.5em;
+  text-align: center;
+  color: #414141;
+}
+
+section p {
+  margin: 0.5em auto;
+}
+
+header {
+  background-color: lavender;
+  min-height: 10vh;
+}
+
+#blue section {
+  background-color: lightcyan;
+}
+
+#red section {
+  background-color: lightcoral;
+}
+
+#yellow section {
+  background-color: lightyellow;
+}
+
+#green section {
+  background-color: lightgreen;
+}
+
+@media screen and (min-width: 576px) {
+  section {
+    font-size: 2.0em;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    font-size: 2.4em;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    font-size: 3.0em;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    font-size: 3.5em;
+    background-color: black;
+  }
+}
+
